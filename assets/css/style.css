@@ -1,0 +1,76 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+h1{
+    text-align:center;
+    padding-top: 30px;
+    text-shadow: 2px 2px 5px rgb(151, 36, 3,);
+}
+h2{
+    text-shadow: 2px 2px 4px #e3e3e3;
+}
+.bg-image{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/54fe5069e4b0b8a1d3d18351/1631830211212-XBPSOP7DC3C8EIE2PQQV/789A1415.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
+
+    
+    
+}
+.overlay{
+    position: absolute;
+    vertical-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.scroll-bg{
+    background: rgb(151, 36, 3, 0.8);
+    width:900px;
+    margin: 5% auto;
+    align-self: baseline;
+    padding: 20px;
+    border-radius: 25px;
+    
+}
+.scroll-div{
+    width: 900px;
+    background: rgb(151, 36, 3,);
+    vertical-align: center;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+body {
+    line-height: 30px;
+}
+table {
+    width: 800px;
+    border-collapse: collapse;
+    border-radius: 25px;
+    margin: 20px;
+} 
+table th {
+    text-align: center;
+    background-color: rgb(78, 18, 0);
+    color: #fff;
+    padding: 4px 30px 4px 8px;
+
+}
+
+table td {
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    padding: 4px 8px;
+
+}
